@@ -1,24 +1,30 @@
+/* Add some spacing around the open-source class */
 .open-source {
-    margin: 10px;
+    margin: 20px auto;
+    display: flex;
     justify-content: center;
 }
 
+/* Make the content-box-subtitle stand out more */
 .content-box-subtitle {
     color: slateblue;
+    font-weight: bold;
 }
 
+/* Simplify and space out the tag grid */
 .tag-grid {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    font-size: 0.8rem;
-    color: rgb(10, 142, 102);
+    font-size: 0.9rem; /* Slightly larger font size */
+    color: rgb(10, 142, 102); /* Modify the color */
 }
 
+/* Enhance the appearance of tags */
 .tag {
-    margin: 2px 4px;
+    margin: 4px; /* Increase vertical margin */
+    padding: 4px 12px; /* Wider padding for better readability */
     border: 1px solid orange;
-    padding: 2px 8px;
-    border-radius: 12px;
+    border-radius: 16px; /* Slightly rounder corners */
 }
